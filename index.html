@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Difficulty Selector -->
+        <div class="difficulty-selector" id="difficultySelector">
+            <h2 class="quiz-title">Select Difficulty</h2>
+            <button class="difficulty-btn active" data-difficulty="all">All</button>
+            <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+            <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+            <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+            <div class="error-message" id="difficultyError"></div>
+            <button class="btn" id="startQuizBtn" style="margin-top: 20px; display: block; width: 100%;">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Area -->
+        <div id="quizArea" style="display: none;">
+            <div class="quiz-header">
+                <h2 class="quiz-title">Interactive Quiz</h2>
+                <div class="timer" id="timer">30s</div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="progressBar"></div>
+            </div>
+            <div class="quiz-progress">
+                Question <span id="currentQuestion">1</span> of <span id="totalQuestions">10</span>
+            </div>
+
+            <div class="question-container" id="questionContainer">
+                <!-- Question and options will be inserted here by JavaScript -->
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="controls">
+                <button class="btn btn-restart" id="restartBtn">Restart</button>
+                <button class="btn" id="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+
+        <!-- Results Area -->
+        <div class="result-container" id="resultContainer">
+            <h2 class="result-title">Quiz Completed!</h2>
+            <div class="result-score" id="resultScore">You scored 0 out of 0</div>
+            <button class="btn btn-restart" id="restartQuizBtn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
