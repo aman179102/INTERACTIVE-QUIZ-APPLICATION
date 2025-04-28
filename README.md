@@ -31,9 +31,9 @@ Key Features
 
     Instant Feedback:
 
-        -->Correct answers turn green with a success message.
+   -->Correct answers turn green with a success message.
 
-        -->Wrong answers turn red, and the correct answer is highlighted.
+      -->Wrong answers turn red, and the correct answer is highlighted.
 
     Progress Tracking: A progress bar and question counter show completion status.
 
@@ -61,30 +61,30 @@ Development in VS Code
 
 The project was built using VS Code with the following workflow:
 
-    Single HTML File Structure: Combines HTML, CSS, and JavaScript for simplicity.
+Single HTML File Structure: Combines HTML, CSS, and JavaScript for simplicity.
 
-    Extensions Used:
+Extensions Used:
 
-        Live Server for real-time previews.
+-->Live Server for real-time previews.
 
-        ESLint & Prettier for code consistency.
+-->ESLint & Prettier for code consistency.
 
-        Chrome DevTools for debugging responsiveness.
+-->Chrome DevTools for debugging responsiveness.
 
-    Debugging & Optimization:
+-->Debugging & Optimization:
 
-        Tested across browsers (Chrome, Firefox, Edge).
+-->Tested across browsers (Chrome, Firefox, Edge).
 
-        Optimized animations using CSS transitions and efficient DOM updates.
+-->Optimized animations using CSS transitions and efficient DOM updates.
 
 Error Handling & Validation
 
-    Checks for minimum questions before starting.
+-->Checks for minimum questions before starting.
 
-    Prevents null reference errors in JavaScript.
+-->Prevents null reference errors in JavaScript.
 
-    Displays user-friendly error messages if issues arise.
+   -->Displays user-friendly error messages if issues arise.
 
-    #OUTPUT
+#OUTPUT
 
-    ![Image](https://github.com/user-attachments/assets/73a41213-4058-4425-a4ee-9e63ac2c5b09)
+![Image](https://github.com/user-attachments/assets/73a41213-4058-4425-a4ee-9e63ac2c5b09)
