@@ -84,3 +84,7 @@ Error Handling & Validation
     Prevents null reference errors in JavaScript.
 
     Displays user-friendly error messages if issues arise.
+
+    #OUTPUT
+
+    ![Image](https://github.com/user-attachments/assets/73a41213-4058-4425-a4ee-9e63ac2c5b09)
