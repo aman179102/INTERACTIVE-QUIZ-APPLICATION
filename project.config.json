@@ -1,0 +1,7 @@
+{
+  "name": "interactive-quiz-application",
+  "version": "1.0.0",
+  "author": "Aman Kumar",
+  "type": "frontend",
+  "features": ["quiz", "timer", "difficulty", "score"]
+}
